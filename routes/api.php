@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::get('stock/data', function (){
+    return response(file_get_contents(config_path('data.json')))->withHeaders(['Content-Type'=>'application/json']);
+});

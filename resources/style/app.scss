@@ -1,12 +1,11 @@
-
 @import "../../node_modules/uikit/dist/css/uikit.min.css";
 @import "reset.css";
 @import "mixins";
 
 body {
     font-family: Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .btn {
@@ -44,7 +43,7 @@ body {
 }
 
 .content {
-    height: calc(100vh - 480px - 78px - 385px);
+    min-height: calc(100vh - 480px - 78px - 385px);
 }
 
 .header {
@@ -55,7 +54,34 @@ body {
 
     .container {
         display: grid;
-        grid-template-columns: 190px 1fr 200px;
+        grid-template-columns: 55px 1fr 200px;
+    }
+
+    .header__navigate {
+        align-self: center;
+
+        .header__nav-list {
+            margin-top: 2px;
+            display: flex;
+            justify-content: center;
+
+            .header__nav-link {
+                font-family: 'Hind', sans-serif;
+                display: inline-block;
+                margin: 0 16px;
+                line-height: 24px;
+                color: #017ac1;
+                transition: 0.2s;
+                font-size: 18px;
+                font-weight: 600;
+                border-bottom: 1px solid transparent;
+
+                &:hover {
+                    border-bottom: 1px solid rgb(0, 85, 135);
+                    color: rgb(0, 85, 135);
+                }
+            }
+        }
     }
 
     .header__logo-link {
@@ -199,14 +225,15 @@ body {
 
             .footer__col {
                 .footer__col-item {
-                    .footer__col-link{
+                    .footer__col-link {
                         padding: 5px 0;
                         color: white;
                         font-size: 18px;
-                        line-height:24px;
+                        line-height: 24px;
                         transition: 0.3s;
                         display: inline-block;
-                        &:hover{
+
+                        &:hover {
                             text-decoration: none;
                             opacity: 0.6;
                         }
@@ -233,6 +260,168 @@ body {
                     font-size: 18px;
                 }
 
+            }
+        }
+    }
+}
+
+.chart__block {
+    padding: 30px 0;
+    background-color: white;
+    padding-bottom: 70px;
+
+    .sub__heading {
+        text-align: center;
+        @include heading;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        grid-gap: 40px;
+
+        .data__side {
+            padding-top: 23px;
+
+            .side__header {
+                margin-bottom: 15px;
+                font-family: "Segoe UI", Arial, sans-serif;
+                font-weight: 400;
+                color: rgb(45, 55, 72);
+                line-height: 22px;
+                font-size: 18px;
+            }
+
+            .side__trading {
+                font-family: Verdana, sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 18px;
+                color: #718096;
+            }
+
+            .prices {
+                display: flex;
+                font-family: 'Hind', sans-serif;
+
+                .h5 {
+                    font-size: 18px;
+                    line-height: 25px;
+                    margin-right: 2px;
+                    color: #718096;
+                }
+
+                .text-success {
+                    color: #28a745;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 26px;
+                }
+            }
+
+            .data__table {
+                margin-top: 23px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 30px;
+
+                .data__table-row {
+                    font-family: Verdana, sans-serif;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    padding: 5px;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid rgb(222, 226, 230);
+
+                    .data__name {
+                        font-family: Verdana, sans-serif;
+                        font-size: 15px;
+                        line-height: 1.5;
+                        color: #212529;
+                    }
+
+                    .data__value {
+                        font-family: Verdana, sans-serif;
+                        font-size: 15px;
+                        line-height: 1.5;
+                        color: #212529;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.mgom__global {
+    background-image: url('/assets/img/stock-banner1.jpg');
+    background-size: cover;
+    background-position: center, center;
+    background-attachment: fixed;
+    padding: 45px 0;
+    .container {
+        max-width: 1230px;
+    }
+    .sub__heading {
+        text-align: center;
+        @include heading;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .mgom__subtitle {
+        margin: 0 auto 50px;
+        color: white;
+        font-family: Verdana, sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: center;
+        max-width: 1170px;
+    }
+
+    .mgom__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+
+
+
+        .mgom_card {
+            background-color: #307ABB;
+            padding: 20px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+
+            .card__img-wrapper {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 25px;
+
+                img {
+                    object-fit: contain;
+                }
+            }
+
+            .card__header {
+                text-align: center;
+                font-family: "Open Sans", sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                margin-bottom: 23px;
+                color: white;
+            }
+
+            .card__content {
+                color: #FFFFFF;
+                font-family: "Open Sans", sans-serif;
+                font-size: 17px;
+                font-weight: 400;
+                text-align: center;
             }
         }
     }

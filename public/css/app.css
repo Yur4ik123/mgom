@@ -76,8 +76,8 @@ button {
 
 body {
   font-family: Verdana, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .btn {
@@ -116,7 +116,7 @@ body {
 }
 
 .content {
-  height: calc(100vh - 480px - 78px - 385px);
+  min-height: calc(100vh - 480px - 78px - 385px);
 }
 
 .header {
@@ -127,7 +127,30 @@ body {
 }
 .header .container {
   display: grid;
-  grid-template-columns: 190px 1fr 200px;
+  grid-template-columns: 55px 1fr 200px;
+}
+.header .header__navigate {
+  align-self: center;
+}
+.header .header__navigate .header__nav-list {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+}
+.header .header__navigate .header__nav-list .header__nav-link {
+  font-family: "Hind", sans-serif;
+  display: inline-block;
+  margin: 0 16px;
+  line-height: 24px;
+  color: #017ac1;
+  transition: 0.2s;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+}
+.header .header__navigate .header__nav-list .header__nav-link:hover {
+  border-bottom: 1px solid rgb(0, 85, 135);
+  color: rgb(0, 85, 135);
 }
 .header .header__logo-link img {
   height: 46px;
@@ -279,4 +302,153 @@ body {
 }
 .footer .container .footer__bot-side .copyright p {
   font-size: 18px;
+}
+
+.chart__block {
+  padding: 30px 0;
+  background-color: white;
+  padding-bottom: 70px;
+}
+.chart__block .sub__heading {
+  text-align: center;
+  color: #307ABB;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.chart__block .container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-gap: 40px;
+}
+.chart__block .container .data__side {
+  padding-top: 23px;
+}
+.chart__block .container .data__side .side__header {
+  margin-bottom: 15px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  color: rgb(45, 55, 72);
+  line-height: 22px;
+  font-size: 18px;
+}
+.chart__block .container .data__side .side__trading {
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #718096;
+}
+.chart__block .container .data__side .prices {
+  display: flex;
+  font-family: "Hind", sans-serif;
+}
+.chart__block .container .data__side .prices .h5 {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 2px;
+  color: #718096;
+}
+.chart__block .container .data__side .prices .text-success {
+  color: #28a745;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.chart__block .container .data__side .data__table {
+  margin-top: 23px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+.chart__block .container .data__side .data__table .data__table-row {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(222, 226, 230);
+}
+.chart__block .container .data__side .data__table .data__table-row .data__name {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #212529;
+}
+.chart__block .container .data__side .data__table .data__table-row .data__value {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.mgom__global {
+  background-image: url("/assets/img/stock-banner1.jpg");
+  background-size: cover;
+  background-position: center, center;
+  background-attachment: fixed;
+  padding: 45px 0;
+}
+.mgom__global .container {
+  max-width: 1230px;
+}
+.mgom__global .sub__heading {
+  text-align: center;
+  color: #307ABB;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 30px;
+}
+.mgom__global .mgom__subtitle {
+  margin: 0 auto 50px;
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  max-width: 1170px;
+}
+.mgom__global .mgom__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.mgom__global .mgom__cards .mgom_card {
+  background-color: #307ABB;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.mgom__global .mgom__cards .mgom_card .card__img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.mgom__global .mgom__cards .mgom_card .card__img-wrapper img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.mgom__global .mgom__cards .mgom_card .card__header {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 23px;
+  color: white;
+}
+.mgom__global .mgom__cards .mgom_card .card__content {
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
 }

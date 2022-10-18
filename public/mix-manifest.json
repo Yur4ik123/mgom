@@ -1,8 +1,12 @@
 {
-    "/js/app.js": "/js/app.js?id=d6de9e04bd3c95af3a30e51e681de00e",
-    "/css/app.css": "/css/app.css?id=7e76d7bf710d9b750a4e9e0a40ae731a",
+    "/js/app.js": "/js/app.js?id=d10e3ba61258497070ed7f4999e9aafa",
+    "/css/app.css": "/css/app.css?id=0ce7313d03652bdb844771ae3c84da57",
+    "/assets/img/debit-card.jpg": "/assets/img/debit-card.jpg?id=3c83a723bee7d373cd5d4330074d29f8",
     "/assets/img/logo.png": "/assets/img/logo.png?id=56dbbeaca714ed549c39295d4395a788",
     "/assets/img/logo_tm.svg": "/assets/img/logo_tm.svg?id=c5c2c28371f26f4dc4ef1f820e4a9f51",
-    "/assets/img/debit-card.jpg": "/assets/img/debit-card.jpg?id=3c83a723bee7d373cd5d4330074d29f8",
-    "/assets/img/pay.jpg": "/assets/img/pay.jpg?id=aa8cfcd10a5207d61d055135c3725ee4"
+    "/assets/img/pay.jpg": "/assets/img/pay.jpg?id=aa8cfcd10a5207d61d055135c3725ee4",
+    "/assets/img/stock-banner1.jpg": "/assets/img/stock-banner1.jpg?id=2c0b41a79d6a847e9b6822500cefccd8",
+    "/assets/img/why-img1-1.png": "/assets/img/why-img1-1.png?id=287f3605bced785441e7eb4388933a09",
+    "/assets/img/why-img2-1.png": "/assets/img/why-img2-1.png?id=e29e026d2b43eb1c978c08bd39126500",
+    "/assets/img/why-img3-1.png": "/assets/img/why-img3-1.png?id=8a2fb82255236244d9c1e9fafbaf626c"
 }
