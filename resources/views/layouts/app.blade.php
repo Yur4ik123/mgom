@@ -10,22 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href="//fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="//fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-    @vite('resources/style/app.scss')
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <title>mgom</title>
 </head>
 <body>
     <div id="app">
-        <header class="header">
-
-        </header>
+            @include('partial.header')
+        @include('partial.main-slider')
         <div class="content">
             @yield('content')
         </div>
-        <footer class="footer">
-
-        </footer>
+     @include('partial.footer')
     </div>
 
-    @vite('resources/js/app.js')
+    <script defer src="{{ mix('/js/app.js') }}"></script>
 </body>
 </html>

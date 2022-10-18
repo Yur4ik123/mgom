@@ -1,0 +1,27 @@
+@mixin heading($fz : 35px, $lh:42px){
+    color: #307ABB;
+    font-family: "Open Sans", sans-serif;
+    font-size: $fz;
+    line-height: $lh;
+    font-weight: 400;
+}
+@mixin btn-green(){
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 16px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #4caf50;
+    display: inline-flex;
+    justify-content: center;
+    transition: all .2s ease;
+    border-radius: 3em;
+    letter-spacing: 0.04em;
+    margin-top: 16px;
+
+&:hover{
+    text-decoration: none;
+    background-color: rgb(0, 85, 135);
+}
+
+}
