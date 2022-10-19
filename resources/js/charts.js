@@ -99,11 +99,13 @@ function CallGSTAPi() {
 function SetDataInGraph(response) {
     myChart.data = {
         labels: response.data.points.map(function (element, index) {
+            console.log(element.dateStr)
             return element.dateStr
         }),
         datasets: [{
             label: 'USD',
             data: response.data.points.map(function (element, index) {
+
                 return element.usd
             }),
             backgroundColor: '#03a9f4',
