@@ -1,6 +1,6 @@
 {
-    "/js/app.js": "/js/app.js?id=39987c9540b745ada8de7e0af12cf8b6",
-    "/css/app.css": "/css/app.css?id=4d2767d49bf9776b19afa04194396498",
+    "/js/app.js": "/js/app.js?id=319552c7ffb407091eda0a873da5f4a5",
+    "/css/app.css": "/css/app.css?id=5d77a1da69fd6abdbc86e3a4f6d137dc",
     "/assets/img/debit-card.jpg": "/assets/img/debit-card.jpg?id=3c83a723bee7d373cd5d4330074d29f8",
     "/assets/img/logo.png": "/assets/img/logo.png?id=56dbbeaca714ed549c39295d4395a788",
     "/assets/img/logo_tm.svg": "/assets/img/logo_tm.svg?id=c5c2c28371f26f4dc4ef1f820e4a9f51",
@@ -8,5 +8,21 @@
     "/assets/img/stock-banner1.jpg": "/assets/img/stock-banner1.jpg?id=2c0b41a79d6a847e9b6822500cefccd8",
     "/assets/img/why-img1-1.png": "/assets/img/why-img1-1.png?id=287f3605bced785441e7eb4388933a09",
     "/assets/img/why-img2-1.png": "/assets/img/why-img2-1.png?id=e29e026d2b43eb1c978c08bd39126500",
-    "/assets/img/why-img3-1.png": "/assets/img/why-img3-1.png?id=8a2fb82255236244d9c1e9fafbaf626c"
+    "/assets/img/why-img3-1.png": "/assets/img/why-img3-1.png?id=8a2fb82255236244d9c1e9fafbaf626c",
+    "/assets/img/andpay.png": "/assets/img/andpay.png?id=e16cfad47ee580e2664b5e8a770bab2b",
+    "/assets/img/pickcard.png": "/assets/img/pickcard.png?id=e3ad749701b2119fa33ed239f5a0a13f",
+    "/assets/img/signin.png": "/assets/img/signin.png?id=e1fdbdfa085679a102b0fb48ccb4725c",
+    "/assets/img/photo1628103371_post2-770x403.jpeg": "/assets/img/photo1628103371_post2-770x403.jpeg?id=952abde6bdd1a06f208a85723bdf7819",
+    "/assets/img/photo1628103384_post3-770x403.jpeg": "/assets/img/photo1628103384_post3-770x403.jpeg?id=790bd8d9346423448004298fe2ce9830",
+    "/assets/img/photo1628103404_post-1-770x403.png": "/assets/img/photo1628103404_post-1-770x403.png?id=81e094a6a2ab1844e1e4bfbd8a4bfb8b",
+    "/assets/img/publ1-1-1.jpg": "/assets/img/publ1-1-1.jpg?id=030642fbbac68925c0f1abac10a04946",
+    "/assets/img/publ1-1.jpg": "/assets/img/publ1-1.jpg?id=d0a746a9d4ffea1384da374f0fd3b6ba",
+    "/assets/img/publ1.jpg": "/assets/img/publ1.jpg?id=1dc77cc28a985126a14a3a47a8d81bf0",
+    "/assets/img/publ2.jpg": "/assets/img/publ2.jpg?id=e7013b3c54ba90b57bc1aa06acfe5548",
+    "/assets/img/publ5.jpg": "/assets/img/publ5.jpg?id=770018a317748178403acfdad65c36d6",
+    "/assets/img/2.svg": "/assets/img/2.svg?id=73c2c3ded2c71ac2b8b6fe8ba227dbea",
+    "/assets/img/forbes.svg": "/assets/img/forbes.svg?id=b80c4598fe4d82de9a9c5fa22e4f2580",
+    "/assets/img/medium.svg": "/assets/img/medium.svg?id=ed4d5df3a1999e0a6774796925749f7b",
+    "/assets/img/reuters.svg": "/assets/img/reuters.svg?id=347af8e12375fb6fc17141b8371e8223",
+    "/assets/img/wsj.svg": "/assets/img/wsj.svg?id=f633e84980de4f086b153f65e57e0b37"
 }

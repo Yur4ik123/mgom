@@ -124,4 +124,148 @@
                 </div>
             </div>
     </div>
+    <div class="mgom__app">
+        <div class="container">
+            <div class="mgom__global-row ">
+                <h2 class="row__header">
+                    Get started in a few simple steps
+                </h2>
+                <div class="row-3">
+                    <div class="app__col">
+                        <div class="image__wrapper">
+                            <img src="/assets/img/signin.png" width="361" height="368" alt="">
+                        </div>
+                        <div class="col__title">
+                            Simply sign-in
+                        </div>
+                        <div class="col_content">
+                            Just enter your existing Migom Bank username and password and login into your Migom Bank e-wallet.
+                        </div>
+                    </div>
+                    <div class="app__col">
+                        <div class="image__wrapper">
+                            <img src="/assets/img/pickcard.png" width="364" height="368" alt="">
+                        </div>
+                        <div class="col__title">
+                            Set up your preferences
+                        </div>
+                        <div class="col_content">
+                            It's easy to set your favorite card as your default payment method and tailor other preferences to your needs.                        </div>
+                    </div>
+                    <div class="app__col">
+                        <div class="image__wrapper">
+                            <img src="/assets/img/andpay.png" width="358" height="368" alt="">
+                        </div>
+                        <div class="col__title">
+                            And pay or transfer funds
+                        </div>
+                        <div class="col_content">
+                            Paying and transferring funds is simple and rewarding when you use cards linked to your Migom Bank account.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mgom__blog">
+        <div class="container">
+            <h2 class="sub__heading">Company Blogs</h2>
+            <div class="mgom__blog-row">
+                    <a class="mgom__blog-item">
+                        <div class="image__wrapper">
+                            <img src="/assets/img/photo1628103404_post-1-770x403.png" width="770" height="403" alt="">
+                        </div>
+                        <div class="item__title">
+
+                            Multicurrency IBAN with Migom Bank™: easier and faster way to make international payments
+
+                        </div>
+                    </a>
+                <a class="mgom__blog-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/photo1628103384_post3-770x403.jpeg" width="770" height="403" alt="">
+                    </div>
+                    <div class="item__title">
+
+
+                        Introducing QR code payments
+
+
+                    </div>
+                </a>
+                <a class="mgom__blog-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/photo1628103384_post3-770x403.jpeg" width="770" height="403" alt="">
+                    </div>
+                    <div class="item__title">
+
+
+                        Migom Bank™ for cryptocurrency exchanges: unprecedented liquidity and traditional banking of highest standards
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mgom__news">
+        <div class="container">
+            <h3 class="sub__heading">
+                Get started in a few simple steps
+            </h3>
+            <div class="mgom__news-wrapper">
+                <a href="" class="mgom__news-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/publ1-1.jpg" width="300" height="225" alt="">
+                    </div>
+                </a>
+                <a href="" class="mgom__news-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/publ1-1.jpg" width="300" height="225" alt="">
+                    </div>
+                </a>
+                <a href="" class="mgom__news-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/publ1-1-1.jpg" width="300" height="225" alt="">
+                    </div>
+                </a>
+                <a href="" class="mgom__news-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/publ5.jpg" width="300" height="225" alt="">
+                    </div>
+                </a>
+                <a href="" class="mgom__news-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/publ2.jpg" width="300" height="225" alt="">
+                    </div>
+                </a>
+                <a href="" class="mgom__news-item">
+                    <div class="image__wrapper">
+                        <img src="/assets/img/publ1.jpg" width="300" height="225" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mgom__media">
+        <h2 class="sub__heading">
+            In the media
+        </h2>
+        <div class="mgom__media-row">
+            <a href="" class="mgom__media-item">
+                <img src="/assets/img/wsj.svg" style="width: 4rem;" alt="">
+            </a>
+            <a href="" class="mgom__media-item">
+                <img src="/assets/img/forbes.svg" style="width: 6rem;" alt="">
+            </a>
+            <a href="" class="mgom__media-item">
+                <img src="/assets/img/reuters.svg"  alt="">
+            </a>
+            <a href="" class="mgom__media-item">
+                <img src="/assets/img/medium.svg"  alt="">
+            </a>
+            <a href="" class="mgom__media-item">
+                <img src="/assets/img/2.svg" alt="">
+            </a>
+        </div>
+    </div>
 @endsection
