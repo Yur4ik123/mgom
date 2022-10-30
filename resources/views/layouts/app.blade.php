@@ -11,6 +11,8 @@
     <link href="//fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="//fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
     <title>mgom</title>
 </head>
 <body>
