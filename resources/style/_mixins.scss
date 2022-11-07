@@ -88,3 +88,15 @@
     text-decoration: none;
     }
 }
+@mixin page__heading(){
+    padding: 65px 0;
+    background-color: #f8f9fa;
+
+   .page__header{
+       font-size: 64px;
+       line-height: 64px;
+       text-align: center;
+       color: #307ABB;
+       font-family: "Open Sans", sans-serif;
+   }
+}

@@ -15,7 +15,7 @@
 
     <title>mgom</title>
 </head>
-<body>
+<body class="@yield('body-classes')">
     <div id="app">
             @include('partial.header')
         @include('partial.main-slider')
